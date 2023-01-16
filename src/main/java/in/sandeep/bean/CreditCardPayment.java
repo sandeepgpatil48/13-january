@@ -2,6 +2,11 @@ package in.sandeep.bean;
 
 public class CreditCardPayment {
 
- public Integer CreditCardNo;
+
+   public Boolean isActice;
+   public Double amount;
+
+public Integer CreditCardNo;
  public String CardName;
+
 }
